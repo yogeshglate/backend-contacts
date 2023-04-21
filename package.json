@@ -1,0 +1,35 @@
+{
+  "name": "backend-contacts",
+  "version": "1.0.0",
+  "description": "Backend contacts manager CRUD API with JWT Authentication using NodeJS , MongoDB & ExpressJS ",
+  "main": "server.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node server.js",
+    "dev": "nodemon server.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/yogeshglate/backend-contacts.git"
+  },
+  "keywords": [
+    "backend",
+    "nodejs",
+    "mongodb",
+    "express",
+    "contacts"
+  ],
+  "author": "Yogesh Late <yogeshlate96k@gmail.com>",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/yogeshglate/backend-contacts/issues"
+  },
+  "homepage": "https://github.com/yogeshglate/backend-contacts#readme",
+  "dependencies": {
+    "dotenv": "^16.0.3",
+    "express": "^4.18.2"
+  },
+  "devDependencies": {
+    "nodemon": "^2.0.22"
+  }
+}
