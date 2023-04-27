@@ -12,6 +12,7 @@ const port = process.env.PORT || 5000;
 //Applying Middlewares
 app.use(express.json()); // For request body parser
 app.use("/api/contacts", require("./routes/contactRoutes"));
+app.use("/api/users", require("./routes/userRoutes"));
 app.use(errorHandler); // For Error Handling
 
 app.listen(port, () => {
