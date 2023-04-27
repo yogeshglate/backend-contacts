@@ -39,9 +39,9 @@ const errorHandler = (err, req, res, next) => {
         stackTrace: err.stack,
       });
       break;
-    default:
-      console.log("No Errors, Congratulations!");
-      break;
+    // default:
+    //   console.log("No Errors, Congratulations!");
+    //   break;
   }
 };
 
